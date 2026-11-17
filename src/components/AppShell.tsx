@@ -56,12 +56,11 @@ export default function AppShell({
       <footer className="px-6 py-6 text-center text-xs text-slate-400 dark:text-slate-600 space-y-1.5">
         <p>本ツールは診療支援目的です。最終判断は必ず医師が行ってください。</p>
         <p className="leading-relaxed">
-          基準：杉浦令子, 村田光範. 日本成長学会雑誌 2022;28:51-61.
-          日本小児内分泌学会「横断的座高身長比曲線（6.5-17.5歳）」（2000年度乳幼児身体発育調査・学校保健統計調査、LMS法）。
+          基準：Sugiura R, Murata M. The cubic functions for spline smoothed L, M, and S values for
+          sitting height and sitting height/height ratio reference charts for Japanese children.{" "}
+          <em>日本成長学会雑誌</em> 2022;28(2):51–61.（2000年度学校保健統計、LMS法。Table 5・6 の3次関数で L, M, S を計算）
         </p>
-        <p className="leading-relaxed">
-          LMS 値は学会配布の曲線 PDF の SD 線（−2.5〜+2.5 SD の7本）を数値化して月齢ごとに当てはめたもので、論文の表の値ではありません。
-        </p>
+        <p>日本小児内分泌学会「横断的座高身長比曲線（6.5–17.5歳）」と同じ基準です。</p>
       </footer>
     </div>
   );
